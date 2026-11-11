@@ -294,9 +294,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📞 Contact & Support
 
-- **Developer**: [Krishna Reddy](https://github.com/krishnareddy756)
+- **Developer**: [Hidayathulla Shaik](https://github.com/hidayathulla1234)
 - **Live Demo**: [https://sigma-gpt-mig8.vercel.app/](https://sigma-gpt-mig8.vercel.app/)
-- **Issues**: [GitHub Issues](https://github.com/krishnareddy756/SigmaGPT/issues)
+- **Issues**: [GitHub Issues](https://github.com/hidayathulla1234/Sigma GPT/issues)
 
 ---
 
