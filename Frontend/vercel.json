@@ -1,0 +1,16 @@
+{
+  "env": {
+    "VITE_API_URL": "https://sigmagpt-final.onrender.com/api"
+  },
+  "build": {
+    "env": {
+      "VITE_API_URL": "https://sigmagpt-final.onrender.com/api"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

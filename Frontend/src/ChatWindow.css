@@ -1,0 +1,110 @@
+/* ChatWindow.css */
+.chatWindow {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--bg-dark);
+  position: relative;
+}
+
+.navbar {
+  background-color: var(--bg-light);
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.navbar span {
+  color: var(--accent-primary);
+  font-weight: bold;
+}
+
+.userIconDiv {
+  background-color: var(--bg-light);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userIcon {
+  color: var(--text-primary);
+  font-size: 0.8rem;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.chatInput {
+  padding: 15px;
+  background-color: var(--bg-light);
+  border-top: 1px solid var(--border-color);
+  position: sticky;
+  bottom: 0;
+}
+
+.InputBox {
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-darker);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.InputBox input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  padding: 8px 10px;
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.9rem;
+  min-width: 0;
+}
+
+.InputBox input::placeholder {
+  color: var(--text-secondary);
+}
+
+.InputBox input:focus {
+  outline: none;
+}
+
+#submit {
+  background-color: var(--accent-primary);
+  color: var(--bg-dark);
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 6px;
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  border: none;
+}
+
+#submit:hover {
+  background-color: var(--accent-secondary);
+}
+
+.info {
+  text-align: center;
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  padding: 10px;
+  border-top: 1px solid var(--border-color);
+}
